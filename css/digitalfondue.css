@@ -262,3 +262,31 @@ ol.footer-columns .footer-column > ol > li {
 .footer .fa-github {
 	color: #f5f5f5;
 }
+
+.sociallist ul {
+  margin:0;
+  margin-top:5px;
+  padding:0;
+}
+
+.sociallist ul, .sociallist li {
+  display:inline-block;
+}
+
+.sociallist li {
+  padding:15px;
+  margin-bottom:5px;
+  border-bottom:2px solid rgba(0,0,0,0);
+}
+
+.sociallist a {
+  text-decoration:none;
+}
+
+.sociallist .fa-twitter {
+	color: #55acee;
+}
+
+.sociallist .fa-github {
+	color: #333;
+}
