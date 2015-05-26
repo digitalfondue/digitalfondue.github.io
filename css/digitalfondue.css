@@ -324,6 +324,10 @@ h1.separator span {
   padding: 0 15px;
 }
 
+h3.team-member {
+  margin-bottom: 10px;
+}
+
 .project-separator {
   content: "";
   border-bottom: 1px solid #dfdfdf;
