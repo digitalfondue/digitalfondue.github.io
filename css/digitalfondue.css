@@ -8,6 +8,10 @@
   flex: 1;
 }
 
+a span {
+  display: none;
+}
+
 p {
 	margin-bottom: 10px;
 }
@@ -22,7 +26,7 @@ div.section.hero .container {
 }
 
 .navbar {
-	background-color: #78909C;
+	background-color: #242629;
 }
 
 .navbar ul {
@@ -36,7 +40,7 @@ div.section.hero .container {
 }
 
 .navbar li {
-  padding:5px;
+  padding:5px 10px;
   margin-bottom:5px;
   border-bottom:2px solid rgba(0,0,0,0);
 }
@@ -46,7 +50,12 @@ div.section.hero .container {
 }
 
 .navbar a {
-  color:white;
+  color: #E2E2E2;
+  text-decoration:none;
+}
+
+.navbar a:hover {
+  color: white;
   text-decoration:none;
 }
 
@@ -263,30 +272,61 @@ ol.footer-columns .footer-column > ol > li {
 	color: #f5f5f5;
 }
 
-.sociallist ul {
-  margin:0;
-  margin-top:5px;
+ul.sociallist {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding:0;
 }
 
-.sociallist ul, .sociallist li {
+ul.sociallist ul, ul.sociallist li {
   display:inline-block;
 }
 
-.sociallist li {
-  padding:15px;
+ul.sociallist li {
+  padding:0 15px;
   margin-bottom:5px;
   border-bottom:2px solid rgba(0,0,0,0);
 }
 
-.sociallist a {
+ul.sociallist a {
   text-decoration:none;
 }
 
-.sociallist .fa-twitter {
+ul.sociallist .fa-twitter {
 	color: #55acee;
 }
 
-.sociallist .fa-github {
+ul.sociallist .fa-github {
 	color: #333;
+}
+
+h1.separator {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+h1.separator:before {
+  border-top: 1px solid #dfdfdf;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+h1.separator span {
+  background: #fff;
+  padding: 0 15px;
+}
+
+.project-separator {
+  content: "";
+  border-bottom: 1px solid #dfdfdf;
+  width: 80%;
+  margin: 0 auto;
 }
