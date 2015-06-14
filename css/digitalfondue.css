@@ -45,7 +45,7 @@ div.section.hero .container {
   border-bottom:2px solid rgba(0,0,0,0);
 }
 
-.navbar li:hover, .navbar li.active {
+.navbar li.active {
   border-bottom:2px solid white;
 }
 
