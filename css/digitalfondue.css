@@ -129,12 +129,12 @@ div.section.hero .container {
   border-bottom:2px solid rgba(0,0,0,0);
 }
 
-.infolist li:hover, .infolist li.active {
-  border-bottom:2px solid #1EAEDB;
-}
-
 .infolist a {
   text-decoration:none;
+}
+
+.infolist a:hover {
+  text-decoration:underline;
 }
 
 p.doc-link {
