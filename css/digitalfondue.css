@@ -266,8 +266,11 @@ ol.footer-columns .footer-column > ol > li {
 }
 
 .footer .copyright .container {
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
 	display: flex;
-  align-items: center;
+	align-items: center;
   justify-content: center;
 }
 
