@@ -1,11 +1,16 @@
+html {
+	height: 100%;
+}
+
 .site {
   display: flex;
   min-height: 100vh;
+  height: 100%;
   flex-direction: column;
 }
 
 .site-content {
-  flex: 1;
+  flex: 1 0 auto;
 }
 
 a span {
@@ -23,6 +28,11 @@ div.section.hero {
 div.section.hero .container {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.header {
+	flex: none;
+	display: block;
 }
 
 .navbar {
@@ -196,6 +206,8 @@ p.doc-link {
 	background-color: #242629;
 	color: #E2E2E2;
 	margin-top: 20px;
+	flex: none;
+	display: block;
 }
 
 .footer a {
