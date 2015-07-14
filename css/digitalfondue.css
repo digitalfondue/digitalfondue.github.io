@@ -3,6 +3,7 @@ html {
 }
 
 .site {
+	-webkit-display: flex;
   display: flex;
   min-height: 100vh;
   height: 100%;
@@ -10,6 +11,7 @@ html {
 }
 
 .site-content {
+	-webkit-flex: 1 0 auto;
   flex: 1 0 auto;
 }
 
@@ -23,6 +25,7 @@ p {
 
 div.section.hero {
   margin-top: 20px;
+	text-align: center;
 }
 
 div.section.hero .container {
@@ -176,7 +179,7 @@ p.doc-link {
 	text-align: left;
 }
 
-@media (min-width: 750px) { 
+@media (min-width: 750px) {
   .main-content-description {
     max-width:60%;
     margin:auto;
@@ -184,7 +187,7 @@ p.doc-link {
   }
 }
 
-@media (min-width: 750px) { 
+@media (min-width: 750px) {
   .main-content-carousel {
     max-width:80%;
     margin:auto;
@@ -220,16 +223,20 @@ p.doc-link {
 
 .footer .footer-columns {
 	margin:	0;
-  	margin-top:	15px;
+  margin-top:	15px;
 	padding:0;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
+	align-items: center;
+  justify-content: center;
 }
 
 ol.footer-columns .footer-column {
 	display: inline-block;
 	list-style-type: none;
+	-webkit-align-self: flex-start;
 	align-self: flex-start;
 	width: 25%;
 	text-align: center;
