@@ -299,6 +299,7 @@ ul.sociallist {
   margin-top: 0;
   margin-bottom: 0;
   padding:0;
+  text-align:center;
 }
 
 ul.sociallist ul, ul.sociallist li {
@@ -348,6 +349,7 @@ h1.separator span {
 
 h3.team-member {
   margin-bottom: 10px;
+  text-align:center;
 }
 
 .project-separator {
